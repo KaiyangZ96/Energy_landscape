@@ -6,17 +6,16 @@ The scripts for running energy landscape
 - run the following command:
 
 ```shell
-excute.py --target_path <path of binarized input file and rownames.txt> \ 
---binarized_file <file name of binarized input file > \
---save_path <the path to store the results >
+excute.py --target_path <the path of binarized input file and rownames.txt> \ 
+--binarized_file <thefile name of binarized input file> \
+--save_path <the path to store the results>
 ```
 ## Run on docker image
 - pull the docker image from kaiyangz96/energy_landscape:2.0  
 ```shell
 docker pull kaiyangz96/energy_landscape:2.0  
 ```
-- modify the shell script ```run_script_docker.sh``` to set up the parameters of path
 - run the shell script:
 ```shell
-./run_script_docker.sh
+./run_script_docker.sh <the path of binarized input file and rownames.txt> <the path to store the results> <the file name of binarized input file>
 ```
