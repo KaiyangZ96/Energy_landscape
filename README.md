@@ -1,8 +1,8 @@
 # Energy_landscape
 The scripts for running energy landscape 
 
-## How to use
-- excute.py is the main scripts to run energy landscape  
+## How to run
+- ```excute.py``` is the main scripts to run energy landscape  
 - run the following command:
 
 ```shell
