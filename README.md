@@ -11,6 +11,6 @@ excute.py --target_path <path of binarized input file and rownames.txt> \
 --save_path <the path to store the results >
 ```
 ## Run on docker image
-pull the docker image from kaiyangz96/energy_landscape:2.0  
-  -test  
-    test  
+-pull the docker image from kaiyangz96/energy_landscape:2.0  
+-test  
+-test  
