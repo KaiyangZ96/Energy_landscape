@@ -2,7 +2,7 @@
 The scripts for running energy landscape.  
 
 ## How to run
-- ```excute.py``` is the main scripts to run energy landscape.  
+- ```excute.py``` is the main script to run energy landscape.  
 - run the following command:
 
 ```shell
