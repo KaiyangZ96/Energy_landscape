@@ -15,7 +15,7 @@ def Inferrer_ML(binarizedData):
         [modelMean, modelCorrelation] = ModelMeanCorrelation(h,J,vectorlist);
         dh = dt*(dataMean-modelMean)
         dJ = dt*(dataCorrelation - modelCorrelation)
-        dJ = dJ - np.diag(np.diag(dJ)) # make sure Jii=0, but probably not necessary here
+        dJ = dJ - np.diag(np.diag(dJ)) # make sure Jii=0
         h = h+dh
         J = J+dJ
         if np.sqrt(np.linalg.norm(dJ,'fro')**2 + np.linalg.norm(dh)**2)/nodeNumber/(nodeNumber+1) < permissibleErr:
